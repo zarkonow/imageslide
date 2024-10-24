@@ -3,7 +3,7 @@ import {
   ArrowLeftCircleFill,
   ArrowRightCircleFill,
 } from "react-bootstrap-icons";
-import './style.css'
+import "./style.css";
 
 export default function ImageSlide({ url, limit = 5, page = 1 }) {
   const [images, setImages] = useState([]);
